@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5, CSS3, JavaScript for beginners",
+    "img": "img/course1.jpg",
+    "price": "$194.99",
+    "offer": "$9.99"
+  },
+  {
+    "id": 2,
+    "title": "Vegan Food Course",
+    "img": "img/course2.jpg",
+    "price": "$149.99",
+    "offer": "$9.99"
+  },
+  {
+    "id": 3,
+    "title": "Guitar for beginners",
+    "img": "img/course3.jpg",
+    "price": "$199.99",
+    "offer": "$9.99"
+  },
+  {
+    "id": 4,
+    "title": "The Ultimate Guide for farming at home",
+    "img": "img/course4.jpg",
+    "price": "$84.99",
+    "offer": "$9.99"
+  },
+  {
+    "id": 5,
+    "title": "Home Decoration for Beginners",
+    "img": "img/course5.jpg",
+    "price": "$200",
+    "offer": "$9.99"
+  },
+  {
+    "id": 6,
+    "title": "Web Design for Developers",
+    "img": "img/course1.jpg",
+    "price": "$119.99",
+    "offer": "$9.99"
+  },
+  {
+    "id": 7,
+    "title": "Mexican Food for Beginners",
+    "img": "img/course2.jpg",
+    "price": "",
+    "offer": "Free"
+  },
+  {
+    "id": 8,
+    "title": "Learn how to play guitar",
+    "img": "img/course3.jpg",
+    "price": "$199",
+    "offer": "$9.99"
+  },
+  {
+    "id": 9,
+    "title": "Farm in your Home",
+    "img": "img/course4.jpg",
+    "price": "$174",
+    "offer": "$9.99"
+  },
+  {
+    "id": 10,
+    "title": "10 Recipes for Christmas",
+    "img": "img/course5.jpg",
+    "price": "$199",
+    "offer": "$9.99"
+  },
+  {
+    "id": 11,
+    "title": "Modern ES6 JavaScript",
+    "img": "img/course1.jpg",
+    "price": "$194",
+    "offer": "$9.99"
+  },
+  {
+    "id": 12,
+    "title": "100 Natural Food Recipes",
+    "img": "img/course2.jpg",
+    "price": "$84",
+    "offer": "$9.99"
+  }
+]

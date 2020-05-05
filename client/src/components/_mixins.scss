@@ -1,0 +1,43 @@
+@mixin box-sizing($box-model) {
+  box-sizing: $box-model;
+}
+
+@mixin button($background-color) {
+  background-color: $background-color;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: center;
+  color: $white;
+  text-decoration: none;
+}
+
+// Media queries
+@mixin phone {
+  @media (min-width: #{$phone}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+// gradient
+@mixin gradient($color1, $color2) {
+  background: linear-gradient(to right, $color1 0%, $color2 100%);
+}
+
+// backgroundimage
+@mixin bg-icon($image) {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2.4rem;
+  background-image: url(./img/#{$image}.png);
+}

@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./mixins";
+
+.hero {
+  background-image: url(./img/hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 24rem;
+  display: flex;
+  align-items: center;
+  .hero-content {
+    color: $white;
+    h2 {
+      font-size: 2.6rem;
+      font-weight: 400;
+    }
+    form {
+      position: relative;
+      @include tablet {
+        width: 40%;
+      }
+      input[type="text"] {
+        width: 100%;
+        height: 3rem;
+        padding-left: 0.5rem;
+      }
+      input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        text-indent: -9999px;
+        background-color: transparent;
+        border: none;
+        width: 3rem;
+        height: 3rem;
+        background-image: url(./img/search.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    }
+  }
+}
